@@ -28,14 +28,10 @@ export default function ExpandedCard({ favoriteItem }: ICardProps) {
                 </CardHeader>
                 <Typography variant='body1'>{favoriteItem.description}</Typography>
                 <Actions>
-                    <ButtonFavorite loading={loading}>
-                        {/* <Favorite /> */}
-                        <img src={Favorite} alt="Favorite" />
+                    <ButtonFavorite startIcon={<img src={Favorite} alt="Favorite" />} loading={loading}>
                         <Typography variant='button' >Удалить</Typography>
                     </ButtonFavorite>
-                    <ButtonRoute>
-                        {/* <Geo /> */}
-                        <img src={Geo} alt="Geo" />
+                    <ButtonRoute startIcon={<img src={Geo} alt="Geo" />} variant='contained'>
                         <Typography variant='button' >Маршрут</Typography>
                     </ButtonRoute>
                 </Actions>

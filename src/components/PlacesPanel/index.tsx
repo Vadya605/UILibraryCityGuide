@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography } from '@mui/material'
-import { PLACES } from '../../constants/places'
+import { PLACES } from '../../constants'
 import { Place, Places, PlacesWrapper } from "./styled"
 import { IPlacesPanelProps } from './interfaces'
 

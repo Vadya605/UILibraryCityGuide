@@ -1,5 +1,7 @@
+import React from 'react'
 import type { Meta, StoryObj } from '@storybook/react';
 import { ButtonRoute } from '../components/ButtonRoute';
+import Geo from '../assets/img/Geo.svg'
 
 const meta = {
     title: 'Buttons/ButtonRoute',
@@ -38,11 +40,13 @@ export default meta
 
 type Story = StoryObj<typeof meta>;
 
+const startIcon = <img src={Geo} alt='Geo' />
 
 export const Default: Story = {
     args: {
         variant: 'contained',
         children: 'Default',
+        startIcon: startIcon
     }
 }
 
@@ -51,6 +55,7 @@ export const Large: Story = {
         children: 'Large',
         variant: 'contained',
         size: 'large',
+        startIcon: startIcon
     }
 }
 
@@ -59,6 +64,7 @@ export const Medium: Story = {
         children: 'Medium',
         variant: 'contained',
         size: 'medium',
+        startIcon: startIcon
     }
 }
 
@@ -67,5 +73,6 @@ export const Small: Story = {
         children: 'Small',
         variant: 'contained',
         size: 'small',
+        startIcon: startIcon
     }
 }

@@ -5,6 +5,7 @@ import terser from '@rollup/plugin-terser';
 import external from 'rollup-plugin-peer-deps-external';
 import babel from '@rollup/plugin-babel';
 import dts from 'rollup-plugin-dts';
+// import alias from '@rollup/plugin-alias';
 
 export default [
     {
@@ -29,8 +30,13 @@ export default [
             external(),
             resolve(),
             commonjs(),
+            terser(),
+            // alias({
+            //     entries: [
+            //         { find: '@', replacement: 'src' },
+            //     ],
+            // }),
             typescript({ tsconfig: './tsconfig.json' }),
-            terser()
         ]
     },
     {

@@ -1,5 +1,4 @@
-import { Card, CardActions, IconButton } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { Card, CardActions, IconButton, styled } from '@mui/material';
 
 export const CardCollapsed = styled(Card)(({ theme }) => ({
     marginTop: theme.spacing(1),

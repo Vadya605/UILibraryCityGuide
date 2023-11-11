@@ -2,12 +2,11 @@ import React from 'react';
 import { ChevronLeft } from '@mui/icons-material'
 
 import Aside from '../Aside';
-
-import { ArrowClose, Container, Drawer, DrawerContent, DrawerWrapper } from './styled';
-import { useState } from 'react';
 import SearchPanel from '../SearchPanel';
 import FavoritesPanel from '../FavoritesPanel';
+
 import { ISideBarProps } from './interfaces';
+import { ArrowClose, Drawer, DrawerContent, DrawerWrapper } from './styled';
 
 export default function SideBar({ isOpen, selectedSection, selectedPlaces, favorites, selectedFavoriteId }: ISideBarProps) {
     return (
