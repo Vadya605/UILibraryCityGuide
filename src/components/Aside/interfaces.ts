@@ -2,6 +2,6 @@ export interface IAsideButtonProps {
     isActive: boolean
 }
 
-export interface AsideProps {
+export interface IAsideProps {
     selectedSection: string,
 }

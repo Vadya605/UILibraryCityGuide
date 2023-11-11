@@ -5,10 +5,10 @@ import Favorite from '../svg/Favorite'
 import Search from '../svg/Search'
 import ExitIcon from '../../assets/img/Exit.svg'
 import LogoIcon from '../../assets/img/Logo.svg'
-import { AsideButtonFavorites, AsideButtonSearch, AsideWrapper, AvatarAside, Column, Exit, ListSections, Logo } from "./styled"
-import { AsideProps } from './interfaces'
+import { AsideButtonFavorites, AsideButtonSearch, AsideWrapper, Column, Exit, ListSections, Logo } from "./styled"
+import { IAsideProps } from './interfaces'
 
-export default function Aside({ selectedSection }: AsideProps) {
+export default function Aside({selectedSection}: IAsideProps) {
     return (
         <AsideWrapper className='aside'>
             <Logo>

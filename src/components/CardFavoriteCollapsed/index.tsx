@@ -4,7 +4,6 @@ import Typography from '@mui/material/Typography';
 import ExpandMore from '../../assets/img/Arrow.svg'
 import Favorite from '../../assets/img/Favorite.svg'
 
-
 import { ICardProps } from "./interfaces";
 import {
     Actions,
