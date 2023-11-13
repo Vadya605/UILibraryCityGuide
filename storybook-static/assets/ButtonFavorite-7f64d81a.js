@@ -1,0 +1,2 @@
+import{s as r}from"./styled-7e378db4.js";import{L as o}from"./LoadingButton-f42f489f.js";const n=""+new URL("Favorite-2aebd938.svg",import.meta.url).href,s=r(o)(({theme:a})=>({border:`${a.spacing(.3)} solid ${a.palette.borderPrimary.main}`,borderRadius:a.spacing(.5),color:a.palette.textButtonSecondary.main,width:"100%",padding:a.spacing(1,2.2),"& svg path":{fill:a.palette.secondary.main},"&:hover":{border:`${a.spacing(.3)} solid ${a.palette.borderPrimary.main}`}}));export{s as B,n as F};
+//# sourceMappingURL=ButtonFavorite-7f64d81a.js.map
